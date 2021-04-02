@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WeBloggare</title>
+    <link rel="icon" href="Logo.png" type = "image/x-icon"> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="MyCSS.css">
+
+<style>
+body, html
+{
+    height: 100%;
+    margin: 0;
+}
+
+.button3
+{
+    border-radius: 18px;
+}
+</style>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div class="hero-image">
+    <div class="hero-text">
+        <h1 style="font-size:50px">I am Saksham Verma</h1>
+        <p>And I'm a Blogger</p>
+        <button class="button button3">
+            <a href="#section1">Login/SignUp</a>
+        </button>
+    </div>
+</div>
+
+<div>
+    <div id="section1" class="signup-form">
+        
+        <form>
+            <h2>Create an Account</h2>
+            <p class="hint-text">Sign up with your social media account or email address</p>
+            
+            <div class="social-btn text-center">
+                <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-facebook"></i> Facebook</a>
+                <a href="#" class="btn btn-info btn-lg"><i class="fa fa-twitter"></i> Twitter</a>
+                <a href="#" class="btn btn-danger btn-lg"><i class="fa fa-google"></i> Google</a>
+            </div>
+            
+            <div class="or-seperator">
+                <b>or</b>
+            </div>
+            
+            <div class="form-group">
+                <input type="text" class="form-control input-lg" name="username" placeholder="Username" required="required">
+            </div>
+            
+            <div class="form-group">
+                <input type="email" class="form-control input-lg" name="email" placeholder="Email Address" required="required">
+            </div>
+            
+            <div class="form-group">
+                <input type="password" class="form-control input-lg" name="password" placeholder="Password" required="required">
+            </div>
+            
+        	<div class="form-group">
+                <input type="password" class="form-control input-lg" name="confirm_password" placeholder="Confirm Password" required="required">
+            </div> 
+            
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg btn-block signup-btn">Sign Up</button>
+            </div>
+            
+        </form>
+        
+    <div class="text-center">
+        Already have an account? <a href="#">Login here</a>
+    </div>
+</div>
+
+</body>
+</html>
